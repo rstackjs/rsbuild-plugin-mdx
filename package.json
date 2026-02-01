@@ -44,7 +44,7 @@
 		"@rsbuild/plugin-svgr": "^1.2.2",
 		"@rsbuild/plugin-vue": "^1.2.0",
 		"@rslib/core": "^0.18.2",
-		"@types/node": "^22.19.1",
+		"@types/node": "^24.10.9",
 		"nano-staged": "^0.9.0",
 		"playwright": "^1.57.0",
 		"preact": "^10.27.2",
