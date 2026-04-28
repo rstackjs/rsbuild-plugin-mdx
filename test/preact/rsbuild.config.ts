@@ -4,15 +4,15 @@ import { pluginPreact } from '@rsbuild/plugin-preact';
 import { getRandomPort } from '../helper';
 
 export default defineConfig({
-	plugins: [
-		pluginPreact(),
-		pluginMdx({
-			mdxLoaderOptions: {
-				jsxImportSource: 'preact',
-			},
-		}),
-	],
-	server: {
-		port: getRandomPort(),
-	},
+  plugins: [
+    pluginPreact(),
+    pluginMdx({
+      mdxLoaderOptions: {
+        jsxImportSource: 'preact',
+      },
+    }),
+  ],
+  server: {
+    port: getRandomPort(),
+  },
 });
