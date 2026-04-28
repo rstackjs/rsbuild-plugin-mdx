@@ -23,7 +23,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginMdx } from "@rsbuild/plugin-mdx";
+import { pluginMdx } from '@rsbuild/plugin-mdx';
 
 export default {
   plugins: [pluginMdx()],
@@ -48,7 +48,7 @@ Options passed to `@mdx-js/loader`, please refer to [@mdx-js/loader documentatio
 pluginMdx({
   mdxLoaderOptions: {
     // Use Vue JSX
-    jsxImportSource: "vue",
+    jsxImportSource: 'vue',
   },
 });
 ```
@@ -64,7 +64,7 @@ For example, to only compile .mdx files, you can set it as:
 
 ```ts
 pluginMdx({
-  extensions: [".mdx"],
+  extensions: ['.mdx'],
 });
 ```
 
@@ -75,11 +75,11 @@ In a TypeScript project, you need to add type definitions for `*.mdx` files so t
 Create `env.d.ts` in the `src` directory and add the following content:
 
 ```ts title="src/env.d.ts"
-declare module "*.md" {
+declare module '*.md' {
   let MDXComponent: () => JSX.Element;
   export default MDXComponent;
 }
-declare module "*.mdx" {
+declare module '*.mdx' {
   let MDXComponent: () => JSX.Element;
   export default MDXComponent;
 }

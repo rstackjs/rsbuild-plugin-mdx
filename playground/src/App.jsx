@@ -1,7 +1,7 @@
 import Hello from './hello';
 
 const App = () => {
-	return <Hello />;
+  return <Hello />;
 };
 
 export default App;

@@ -5,16 +5,16 @@ import { pluginSvgr } from '@rsbuild/plugin-svgr';
 import { getRandomPort } from '../helper';
 
 export default defineConfig({
-	plugins: [
-		pluginReact(),
-		pluginSvgr({
-			svgrOptions: {
-				exportType: 'default',
-			},
-		}),
-		pluginMdx(),
-	],
-	server: {
-		port: getRandomPort(),
-	},
+  plugins: [
+    pluginReact(),
+    pluginSvgr({
+      svgrOptions: {
+        exportType: 'default',
+      },
+    }),
+    pluginMdx(),
+  ],
+  server: {
+    port: getRandomPort(),
+  },
 });

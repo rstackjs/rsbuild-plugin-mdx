@@ -4,8 +4,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 import { getRandomPort } from '../helper';
 
 export default defineConfig({
-	plugins: [pluginReact(), pluginMdx()],
-	server: {
-		port: getRandomPort(),
-	},
+  plugins: [pluginReact(), pluginMdx()],
+  server: {
+    port: getRandomPort(),
+  },
 });
