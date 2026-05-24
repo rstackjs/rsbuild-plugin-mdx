@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@rsbuild/core": "^2.0.6",
+    "@rsbuild/core": "^2.0.7",
     "@rsbuild/plugin-preact": "^1.7.2",
     "@rsbuild/plugin-react": "^2.0.0",
     "@rsbuild/plugin-svgr": "^2.0.2",
@@ -43,7 +43,7 @@
     "@rslint/core": "^0.5.3",
     "@types/node": "^24.12.4",
     "playwright": "^1.60.0",
-    "preact": "^10.29.1",
+    "preact": "^10.29.2",
     "prettier": "^3.8.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -59,7 +59,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.1.2",
+  "packageManager": "pnpm@11.2.2",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
