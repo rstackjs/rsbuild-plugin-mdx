@@ -33,7 +33,7 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@rsbuild/core": "^2.0.9",
-    "@rsbuild/plugin-preact": "^1.7.3",
+    "@rsbuild/plugin-preact": "^2.0.0",
     "@rsbuild/plugin-react": "^2.0.1",
     "@rsbuild/plugin-svgr": "^2.0.3",
     "@rsbuild/plugin-vue": "^1.2.9",
