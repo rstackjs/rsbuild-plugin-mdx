@@ -28,8 +28,8 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(@rsbuild/core@2.0.14)(@rspack/core@2.0.8(@swc/helpers@0.5.23))(typescript@6.0.3)
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.9
-        version: 1.2.9(@rsbuild/core@2.0.14)(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.0.14)(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))
       '@rslib/core':
         specifier: ^0.22.1
         version: 0.22.1(typescript@6.0.3)
@@ -335,10 +335,10 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-vue@1.2.9':
-    resolution: {integrity: sha512-ufD4eufkZZlNK3iY5NWg57AMK9qrTFmHycDkSTfRTua4Qczf7q9s7rCLYVfVv2w36cOXJIewM+376jD0zaQShQ==}
+  '@rsbuild/plugin-vue@2.0.0':
+    resolution: {integrity: sha512-x+oOV+gG6e65542VtcRncVEoCzbAw/IB6aAAgMJJ4xJ1QO08nZSwGPqtjeYXv9Uo+7lC5lP2yLIDnCbys8wsqg==}
     peerDependencies:
-      '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+      '@rsbuild/core': ^2.0.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
@@ -1205,8 +1205,8 @@ packages:
       typescript:
         optional: true
 
-  rspack-vue-loader@17.5.0:
-    resolution: {integrity: sha512-hJrL2+jytfTs6ORHBOKTh5lU7BVZvmv7afELuQfyEpGC1ll7MKj1BxlgAIbhd6pZwoEwfdH79Lewtwe4VOlfCQ==}
+  rspack-vue-loader@17.5.1:
+    resolution: {integrity: sha512-1pXdeqYM95P0T8DO2ZcOCBnfMp62W5IG2c0RICn1rFYjHcja41IYSQLzcdc1uePEq0n4JZwvfR2lVs8wRZuwzA==}
     peerDependencies:
       '@rspack/core': ^1.0.0 || ^2.0.0-0
       '@vue/compiler-sfc': '*'
@@ -1664,9 +1664,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@rsbuild/plugin-vue@1.2.9(@rsbuild/core@2.0.14)(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))':
+  '@rsbuild/plugin-vue@2.0.0(@rsbuild/core@2.0.14)(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))':
     dependencies:
-      rspack-vue-loader: 17.5.0(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))
+      rspack-vue-loader: 17.5.1(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3))
     optionalDependencies:
       '@rsbuild/core': 2.0.14
     transitivePeerDependencies:
@@ -2723,7 +2723,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  rspack-vue-loader@17.5.0(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3)):
+  rspack-vue-loader@17.5.1(@rspack/core@2.0.8(@swc/helpers@0.5.23))(vue@3.5.38(typescript@6.0.3)):
     dependencies:
       '@rspack/lite-tapable': 1.1.0
       chalk: 4.1.2
