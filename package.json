@@ -25,7 +25,7 @@
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
     "prepare": "simple-git-hooks",
-    "test": "playwright test",
+    "test": "rstest",
     "bump": "npx bumpp"
   },
   "simple-git-hooks": {
@@ -35,7 +35,6 @@
     "@mdx-js/loader": "^3.1.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
     "@rsbuild/core": "^2.1.2",
     "@rsbuild/plugin-preact": "^2.0.0",
     "@rsbuild/plugin-react": "^2.1.0",
@@ -43,6 +42,8 @@
     "@rsbuild/plugin-vue": "^2.0.0",
     "@rslib/core": "^0.23.1",
     "@rslint/core": "^0.6.4",
+    "@rstest/core": "^0.11.1",
+    "@rstest/playwright": "^0.11.1",
     "@types/node": "^24.13.2",
     "playwright": "^1.61.1",
     "preact": "^10.29.3",
