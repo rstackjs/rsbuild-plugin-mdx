@@ -15,6 +15,6 @@ export default defineConfig({
     pluginMdx(),
   ],
   server: {
-    port: getRandomPort(),
+    port: await getRandomPort(),
   },
 });

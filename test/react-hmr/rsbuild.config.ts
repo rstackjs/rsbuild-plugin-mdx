@@ -6,6 +6,6 @@ import { getRandomPort } from '../helper';
 export default defineConfig({
   plugins: [pluginReact(), pluginMdx()],
   server: {
-    port: getRandomPort(),
+    port: await getRandomPort(),
   },
 });
