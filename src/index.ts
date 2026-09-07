@@ -40,9 +40,10 @@ export const pluginMdx = (options: PluginMdxOptions = {}): RsbuildPlugin => ({
 
       [CHAIN_ID.USE.SWC, CHAIN_ID.USE.BABEL].some((id) => {
         const use = jsRule.uses.get(id);
+        const loaderPath = use?.get('loader');
 
-        if (use) {
-          mdxRule.use(id).loader(use.get('loader')).options(use.get('options'));
+        if (loaderPath) {
+          mdxRule.use(id).loader(loaderPath).options(use.get('options'));
           return true;
         }
 
