@@ -33,21 +33,21 @@
     "@mdx-js/loader": "^3.1.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.6",
+    "@rsbuild/core": "^2.2.13",
     "@rsbuild/plugin-preact": "^2.1.0",
-    "@rsbuild/plugin-react": "^2.1.0",
+    "@rsbuild/plugin-react": "^2.1.1",
     "@rsbuild/plugin-svgr": "^2.0.5",
     "@rsbuild/plugin-vue": "^2.0.1",
     "@rstackjs/test-utils": "^1.0.0",
-    "@rstest/playwright": "^0.11.12",
-    "@types/node": "^24.13.4",
-    "playwright": "^1.63.0",
+    "@rstest/playwright": "^0.12.3",
+    "@types/node": "^24.19.2",
+    "playwright": "^1.64.0",
     "preact": "^10.29.8",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "rstack": "^0.7.4",
+    "rstack": "^0.8.3",
     "typescript": "7.0.2",
-    "vue": "^3.5.42"
+    "vue": "^3.5.44"
   },
   "peerDependencies": {
     "@rsbuild/core": "^1.0.0 || ^2.0.0"
@@ -57,7 +57,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.27.0",
+  "packageManager": "pnpm@11.28.5",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
